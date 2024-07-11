@@ -148,13 +148,14 @@
 
         }
         .sunday{
-            position: sticky;
+            position: absolute;
             left: 470px;
             top: 30px;
             background-color: rgb(22, 36, 22);
             color: white;
             font-weight: bold;
             border-radius: 9px;
+            padding: 5px;
             
 
         }
@@ -218,20 +219,22 @@
             left: 20px;
             top: 600px;
        }
+       /* date: 10-07-2024 , changed the position of sunday and yesterday from position: sticky to absolute */
        .yesterday{
-            position: sticky ;
-            top: 380px;
+            position: absolute ;
+            top: 640px;
             margin-left: 460px;
             display: inline;
             background-color: rgb(22, 36, 22);
             color: white;
             font-weight: bold;
             border-radius: 9px;
+            padding: 5px;
        }
-       .middle .sunday{
+       /* .middle .sunday{
         position: fixed;
         top: 80px
-       }
+       } */
        /* .middle .yesterday{
         position: fixed;
         top: 520px;
@@ -240,7 +243,7 @@
         position: absolute;
        }
        .m13,.m15,.m17,.m19,.m21,.m23{
-        margin-left: 420px;
+        margin-left: 950px;
        }
        .m13{
         top: 700px;
@@ -293,6 +296,10 @@
         padding: 2px;
         border-radius: 5px;
        }
+       sub{
+        font-family: Arial;
+        font-size: xx-small;
+       }
        
 
        
@@ -311,34 +318,34 @@
         </div>
         <div class="middle">
             <span class="sunday" >Sunday</span>
-            <span class="m1">Hi Tony</span>
-            <p class="m2">Hello hru masao</p>
-            <span class="m3">Hi Tony</span>
-            <p class="m4">Hello hru masao</p>
-            <span class="m5">Hi Tony</span>
-            <p class="m6">Hello hru masao</p>
-            <span class="m7">Hi Tony</span>
-            <p class="m8">Hello hru masao</p>
-            <span class="m9">Hi Tony</span>
-            <p class="m10">Hello hru masao</p>
-            <span class="m11">Hi Tony</span>
-            <p class="m12">Hello hru masao</p>
+            <span class="m1">Hi Tony <sub> 1:00am</sub></span>
+            <p class="m2">Hello hru masao<sub> 1:01am</sub></p>
+            <span class="m3">I'm fine, hru<sub> 1:02am</sub></span>
+            <p class="m4">just completed a mission<sub> 1:05am</sub></p>
+            <span class="m5">Whom did u capture?<sub> 1:10am</sub></span>
+            <p class="m6">it was Thanos<sub> 10:30am</sub></p>
+            <span class="m7">Wow , hru now<sub> 11:12am</sub></span>
+            <p class="m8">just some minor injuries<sub> 12:00pm</sub></p>
+            <span class="m9">Any casualities<sub> 12:12pm</sub></span>
+            <p class="m10">No, all r safe<sub> 1:01pm</sub></p>
+            <span class="m11">Great job<sub> 2:45pm</sub></span>
+            <p class="m12">Thank you<sub> 2:50pm</sub></p>
 
             <div class="yesterday">yesterday
 
             </div>
-            <span class="m13">Hi Tony</span>
-            <p class="m14">Hello hru masao</p>
-            <span class="m15">Hi Tony</span>
-            <p class="m16">Hello hru masao</p>
-            <span class="m17">Hi Tony</span>
-            <p class="m18">Hello hru masao</p>
-            <span class="m19">Hi Tony</span>
-            <p class="m20">Hello hru masao</p>
-            <span class="m21">Hi Tony</span>
-            <p class="m22">Hello hru masao</p>
-            <span class="m23">Hi Tony</span>
-            <p class="m24">Hello hru masao</p>            
+            <span class="m13">Hi Tony<sub> 1:00am</sub></span>
+            <p class="m14">Hello hru masao<sub> 1:01am</sub></p>
+            <span class="m15">Hi Tony<sub> 1:02am</sub></span>
+            <p class="m16">Hello hru masao<sub> 1:05am</sub></p>
+            <span class="m17">Hi Tony<sub> 1:10am</sub></span>
+            <p class="m18">Hello hru masao<sub> 10:30am</sub></p>
+            <span class="m19">Hi Tony<sub> 11:12am</sub></span>
+            <p class="m20">Hello hru masao<sub> 12:00pm</sub></p>
+            <span class="m21">Hi Tony<sub> 12:12pm</sub></span>
+            <p class="m22">Hello hru masao<sub> 1:01pm</sub></p>
+            <span class="m23">Hi Tony<sub> 2:45pm</sub></span>
+            <p class="m24">Hello hru masao<sub> 2:50pm</sub></p>            
         </div>
         
 
